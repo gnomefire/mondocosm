@@ -54,7 +54,7 @@ export default function Scene() {
     {blobs.map((blob, index) => {
         return (
             <mesh position={blob.position} key={index} >
-                <sphereGeometry args={[.001, 16, 16]}/>
+                <sphereGeometry args={[.01, 16, 16]}/>
                 <meshBasicMaterial/>
             </mesh>
         )
